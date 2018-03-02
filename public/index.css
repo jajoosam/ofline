@@ -1,0 +1,15 @@
+body{
+  font-size: 1.5em;
+  font-family: "VT323";
+}
+p,h1{
+    padding-left: 10px;
+   font-size:1em;
+}
+canvas{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
