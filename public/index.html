@@ -1,0 +1,44 @@
+   <html>
+    <head>
+        <title>Ofline Games</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+      <div>
+        <h1>Ofline Games</h1>
+        <p>Ofline creates games that</p>
+        <ol>
+          <li>Work Offline</li>
+          <li>Are in a 128x128 grid</li>
+          <li>Have 16 colors</li>
+        </ol>
+        <p>
+          Here's a list of games
+        </p>
+        <ul>
+          <li><a href="celeste.html">Celeste</a></li>
+          <li><a href="dusk.html">Dusk Child</a></li>
+          <li><a href="lair.html">The Lair</a></li>
+          <li><a href="shooter.html">Pat Shooter</a></li>
+          <li><a href="mistigri.html">Mistigri</a></li>
+          <li><a href="pool.html">Combo Pool</a></li>
+          <li><a href="tower.html">Tower of Archeos</a></li>
+          <li><a href="hug.html">Hug Arena</a></li>
+          <li><a href="racer.html">Pico Racer</a></li>
+          <li><a href="tempest.html">Tempest</a></li>
+        </ul>
+        <p>
+          Contribute with more games, report issues, or discuss on <a href="https://github.com/jajoosam/ofline">Github</a>.<br>These games are hosted on <a href="https://glitch.com/~ofline">glitch</a>.
+        </p>
+      </div>
+      <script>
+      // Register your ServiceWorker to user's browser
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register('/sw.js', {scope: '/'})
+      }
+      </script>
+    </body>
+</html>
+
